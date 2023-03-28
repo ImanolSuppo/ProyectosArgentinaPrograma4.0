@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 12</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <label for="nombreCliente">Nombre del cliente: </label> <br><br>
+    <input type="text" name="nombreCliente" id="nombreCliente"> <br><br>
+    <label for="cboMaterialCaja">Material de la caja: </label>
+    <select id="cboMaterialCaja">
+        <option>Carton</option>
+        <option selected="selected">Madera</option>
+        <option>Plastico</option>
+        <option>Metal</option>
+        <option>Aluminio</option>
+      </select>
+      <br><br>
+      <label>Seleccione en unas dimensiones para la caja: </label><br>
+      <input type="radio" id="rdbDimensiones" name="Dimensiones" value="diminuto" checked>Diminuto <br>
+      <input type="radio" id="rdbDimensiones" name="Dimensiones" value="mediano" >Mediano <br>
+      <input type="radio" id="rdbDimensiones" name="Dimensiones" value="grande" >Grande <br><br>
+      <label for="comentarios">Comentarios: </label><br>
+      <input type="text" name="comentarios" id="comentarios"><br><br>
+      <button id="btnEnviar">Enviar</button>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 13</title>
+</head>
+<body>
+    <h1>Juego adivina el número</h1>
+    <p>Debes adivinar un número que está entre el 0 y el 5. Tienes 3 intentos</p>
+    <div class="formulario"> 
+        <label for="txtNumero">Adivina el numero: </label>
+        <input type="text" id="txtNumero" class="txtNumero">
+        <input type="submit" value="Enviar respuesta" id="btnEnviar"> 
+    </div>
+    <div id="resultado">
+        <p id="intentos"></p>
+        <p id="ultimoResultado"></p>
+        <input type="submit" id="btnReiniciar" value="Reiniciar juego" disabled>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
